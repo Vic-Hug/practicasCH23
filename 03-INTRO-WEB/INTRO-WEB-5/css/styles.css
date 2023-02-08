@@ -1,5 +1,5 @@
 body{
-    font-family: 'Open sans', Arial, Tahoma;
+    font-family: 'Open sans', Arial, Tahoma; /*CSS property specifies a prioritized list of one or more font family names and/or generic family names for the selected element. */
     font-weight: 400;
     font-size: 14px;
     color: #363636;
@@ -42,7 +42,8 @@ h1 span{
 
 .menu ul{
     text-align: center;
-    margin: auto;padding: 0%;
+    margin: auto;
+    padding: 0%;
     list-style-type:none;
 }
 .menu ul li{
@@ -55,5 +56,200 @@ h1 span{
     font-size: 10px;
     text-decoration: none;
     display: block;
-    padding: 3px;
+    padding: 5px;
+}
+
+/* La propiedad position de CSS especifica cómo un elemento es 
+posicionado en el documento. Las propiedades top, right, bottom, 
+y left determinan la ubicación final de los elementos posicionados. */
+
+
+.menu ul li ul{   
+    position:absolute;
+    top: 25px;
+    left: 0;
+    list-style-type: none;
+    display: none;
+    height: auto;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
+.menu ul li ul li{
+    display: block;
+    width: 60px;
+    height: 20px;
+    margin: 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* fin de header */
+h2 {
+    color:#f0563d;
+    text-transform: uppercase;
+}
+ h2::before{
+    content: "//  ";
+ }
+
+  .clearfix:before{
+    display: table;
+    line-height: 1;
+    content: "";
+ } 
+
+
+
+
+
+
+
+ .pull-left{
+    float:left
+ }
+
+ .row{
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+.col-60{
+    width: 60%;
+}
+
+.col-10{
+    width: 10%;
+}
+.col-20{
+    width: 20%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-80{
+    width: 80;
+}
+
+.col-90{
+    width: 90%;
+}
+
+
+
+/***************/
+
+.education ul{
+    list-style: none;
+    margin:0;
+    padding: 0;	
+}
+    .education .year {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    
+    .education .description {
+        background: #EEEEEE;
+        border-bottom: 1px solid #DDDDDD;
+        padding: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        box-sizing: border-box; 
+    }
+
+    .education .description h3, .education .description p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .education .description p::after {
+        content: "";
+        position: absolute;
+        border: 8px solid transparent ;
+        border-right: 8px solid #EEEEEE ;
+        top: 5px;
+        left: -16px;
+    }
+
+
+    .experience .job .where{
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .year{
+        font-size: 0.8em ;
+    }
+
+    .profesion{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 2em;
+        font-size: 0.9em;
+        text-align:justify;
+    }
+    .description{
+        margin-top: 0;
+        margin-left: 2em;
+        text-align: justify;
+
+    }
+
+    /* .skills {
+		list-style-type: none;
+		margin:0;
+		padding: 0;
+	}
+		.skills-item {				
+			color: #FFFFFF;
+			font-weight: bold;
+			text-transform: uppercase;
+			padding: 2px 0 2px 5px;
+			margin-top: 5px;				
+			background: #F0563D;
+			
+		}
+		.skills-item[data-percent="10"] { width: 10% }
+		.skills-item[data-percent="20"] { width: 20% }
+		.skills-item[data-percent="30"] { width: 30% }
+		.skills-item[data-percent="40"] { width: 40% }
+		.skills-item[data-percent="50"] { width: 50% }
+		.skills-item[data-percent="60"] { width: 60% }
+		.skills-item[data-percent="70"] { width: 70% }
+		.skills-item[data-percent="80"] { width: 80% }
+		.skills-item[data-percent="90"] { width: 90% } */
+
+               
+          
+     .html { 
+        color: #DDDDDD;
+        margin: 3px;
+        list-style-type: none; 
+        text-align: right; 
+        width: 90%; 
+        background-color: #04AA6D;}
+.css { color: #DDDDDD;
+    margin: 3px;
+    list-style-type: none; 
+    text-align: right;
+    width: 80%; 
+    background-color: #2196F3;
+}
+.js { 
+    color: #DDDDDD;
+    margin: 3px;
+    list-style-type:none; 
+    text-align: right;
+    none;width: 65%; 
+    background-color: #f44336;
+}
+.python { 
+    color: #DDDDDD;
+    margin: 3px;
+    list-style-type: none;
+    text-align: right; 
+    width: 60%; 
+    background-color: #808080;
 }
