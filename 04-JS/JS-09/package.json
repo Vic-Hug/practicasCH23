@@ -1,0 +1,11 @@
+{
+  "name": "js-09",
+  "version": "1.0.0",
+  "description": "de nuez",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yo",
+  "license": "ISC"
+}
