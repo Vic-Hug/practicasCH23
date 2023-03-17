@@ -1,0 +1,22 @@
+package operadoresJava;
+
+public class Prue {
+	public static void main(String[] args) {
+		System.out.println();
+		if (condition) {
+			
+		}
+		do {
+			
+		} while (condition);
+		
+	while (condition) {
+		
+	}
+	
+	for (int i = 0; i < args.length; i++) {
+		
+	}
+		
+	}
+}

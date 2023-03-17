@@ -1,0 +1,14 @@
+package ciclos.principal;
+
+import ciclos.forwhiledo.UsoWhile;
+
+public class Test {
+
+	public static void main(String[] args) {
+	UsoWhile objetoUW = new UsoWhile();
+		//objetoUW.cicloW();
+		//objetoUW.centinelaW();
+		objetoUW.banderaW();
+	}
+
+}

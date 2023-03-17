@@ -1,0 +1,13 @@
+package ciclos.control;
+
+public class Menus {
+	public void menuPrincipal() {
+		System.out.println("1: Uso de cilco while");
+		System.out.println("2: Uso de cilco while centinela");
+		System.out.println("3: Uso de cilco while bandera");
+		System.out.println("4: Uso de cilco For ");
+		System.out.println("5: Uso de cilco For letras");
+		System.out.println("6: Uso de cilco do while digitos");
+		System.out.println("7: salir");
+	}
+}

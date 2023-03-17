@@ -1,0 +1,15 @@
+package pruebasJunit.vhfc.app;
+
+public class Calculadora {
+
+	public int sumar() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int restar() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

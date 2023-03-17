@@ -1,0 +1,15 @@
+package hilos.vhfc.pruebas;
+
+import hilos.vhfc.formathread.Hilo1;
+
+public class TestThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Thread h = new Hilo1("Juan");
+		h.start();
+		System.out.println(h.getState());
+
+	}
+
+}

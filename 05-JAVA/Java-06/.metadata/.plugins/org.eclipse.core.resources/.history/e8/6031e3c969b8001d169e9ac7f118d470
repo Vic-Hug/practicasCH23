@@ -1,0 +1,19 @@
+package ciclos.control;
+
+import java.util.Scanner;
+
+public class DoSwitch {
+public void controlador() {
+	Scanner s= new Scanner(System.in);
+	Menus mp = new Menus();
+	
+	int opcion = 0;
+	do {
+		mp.menuPrincipal();
+		System.out.print("Introduzca un op: ");
+		opcion = s.nextInt();
+	} while (opcion>0 && opcion<7);
+
+
+}
+}

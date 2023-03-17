@@ -1,0 +1,25 @@
+package control;
+
+public class EstructuraIf {
+	public void controlIf() {
+		// TODO Auto-generated method stub
+		/*
+		if (condition) {
+			
+		}
+		*/
+		long nota = 5;
+		if (nota > 5) {
+			System.out.println("Nota aprobada " + nota);
+		}
+		System.out.println("continua el control ...");
+		
+
+		/*
+		if (condition) {
+			
+		} else {
+
+		}*/
+	}
+}

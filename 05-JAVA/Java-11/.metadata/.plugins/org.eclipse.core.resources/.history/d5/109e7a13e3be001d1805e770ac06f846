@@ -1,0 +1,14 @@
+package com.vhfc.hilos;
+
+public class EjecutarHilo1 {
+
+	public static void main(String[] args) {
+		Thread h =new Hilo1("Victor");
+		h.start();
+		Thread h0 =new Hilo1("Maria");
+		h0.start();
+		Thread h1 =new Hilo1("Clara");
+		h1.start();
+	}
+
+}

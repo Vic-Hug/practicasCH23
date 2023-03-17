@@ -1,0 +1,53 @@
+package colecciones.vhfc;
+
+import java.util.*;
+
+public class MisCollection {
+
+	public static void main(String[] args) {
+		MisCollection c = new MisCollection();
+		imprimir(c.listaCollections());
+		// wrapperClass();
+	}
+
+	private List listaCollections() {
+		List miLista = new ArrayList();
+		System.out.println(miLista + "Tamaño de la lista antes " + miLista.size());
+		System.out.println("esta vacia "+ miLista.isEmpty());
+		miLista.add("1");
+		miLista.add(2);
+		miLista.add(3);
+		miLista.add("Pato");
+		
+		System.out.println(miLista + "Tamaño de la lista despues " + miLista.size());
+		System.out.println("esta vacia "+ miLista.isEmpty());
+
+		return miLista;
+
+	}
+	private static void imprimir(Collection collection) {
+		// TODO Auto-generated method stub
+		for (Object elementos : collection) {
+			System.out.println("elementos " + elementos);
+		}
+	}
+
+	static void wrapperClass() {
+		// byte, short, char, long, float, int, double
+
+		byte numeroB = -128;
+		System.out.println("Tamaño de un byte " + Byte.SIZE);
+		System.out.println("Valor Max " + Byte.MAX_VALUE);
+		System.out.println("Valor Min " + Byte.MIN_VALUE);
+		System.out.println("---> " + numeroB);
+
+		int numeroI = -2147483648;
+		System.out.println("Tamaño de un entero bytes: " + Integer.BYTES);
+		System.out.println("Tamaño de un entero: " + Integer.SIZE);
+		System.out.println("Valor Max " + Integer.MAX_VALUE);
+		System.out.println("Valor Min " + Integer.MIN_VALUE);
+		System.out.println("---> " + numeroI);
+
+	}
+
+}

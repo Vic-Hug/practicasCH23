@@ -1,0 +1,39 @@
+package control;
+
+import java.util.Scanner;
+
+public class EstructuraIf {
+	Scanner entrada = new Scanner(System.in);
+	
+	public void controlIf() {
+		// TODO Auto-generated method stub
+		/*
+		if (condition) {
+			
+		}
+		*/
+		long nota = 4;
+		if (nota > 5) {
+			System.out.println("Nota aprobada " + nota);
+		}
+		System.out.println("continua el control de flujo...");
+		
+
+		/*
+		if (condition) {
+			
+		} else {
+
+		}*/		
+		if (nota >= 5) {
+			System.out.println("Nota aprobada " + nota);
+		} else {
+			System.out.println("Nota no aprobada " + nota);
+		}			
+	}
+	public void divisible() {
+		// TODO Auto-generated method stub	
+		
+	}
+	
+}
