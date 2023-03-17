@@ -1,0 +1,11 @@
+package com.generation.vhfc.mains;
+
+import com.generation.vhfc.clases.AreaPerimetro;
+
+public class TestAreaPerimetro {
+public static void main(String[] args) {
+	AreaPerimetro ap= new AreaPerimetro();
+	
+	System.out.println("--->"+ap.area(5));
+}
+}

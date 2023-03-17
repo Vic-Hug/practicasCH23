@@ -1,0 +1,5 @@
+package com.generation.vhfc.ManejoExcepciones;
+
+public class NoComprobadasExceptions {
+
+}
