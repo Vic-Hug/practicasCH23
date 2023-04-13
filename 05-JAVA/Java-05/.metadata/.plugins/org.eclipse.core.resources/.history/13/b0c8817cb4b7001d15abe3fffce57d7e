@@ -1,0 +1,28 @@
+package control;
+
+import java.util.Scanner;
+
+public class EstructuraMultiple {
+	
+	Scanner dato = new Scanner(System.in);
+	
+	public void vocal() {
+		// TODO Auto-generated method stub
+		System.out.println("Introduzaca un letra: ");
+		char letra = dato.next().charAt(0);
+		switch (letra) {
+		case 'a':
+		case 'e':
+		case 'i':
+		case 'o':
+		case 'u':
+			System.out.println(" es vocal ");
+			break;
+		default:
+			System.out.println("El caracter no es vocal");
+			break;
+		}
+
+
+	}
+}

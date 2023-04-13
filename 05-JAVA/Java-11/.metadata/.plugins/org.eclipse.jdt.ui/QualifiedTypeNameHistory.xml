@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.vhfc.clases.AlumnoB"/>
+    <fullyQualifiedTypeName name="com.vhfc.clases.PersonaP"/>
+    <fullyQualifiedTypeName name="com.vhfc.clases.Rectangulo"/>
+    <fullyQualifiedTypeName name="com.vhfc.clases.FigurasGeometricas"/>
+    <fullyQualifiedTypeName name="com.vhfc.clases.Circulo"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.vhfc.clases.Suma"/>
+    <fullyQualifiedTypeName name="com.vhfc.clases.OperacioneAritmeticas"/>
+    <fullyQualifiedTypeName name="com.vhfc.clases.Mensajes"/>
+</qualifiedTypeNameHistroy>

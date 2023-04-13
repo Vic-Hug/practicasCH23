@@ -1,0 +1,16 @@
+package operadoresJava;
+
+public class Prue {
+	public static void main(String[] args) {
+		int billete = 0;
+		double importe = 100;
+		if (importe >= 50) {
+			billete = (int) (importe / 50);
+
+			importe %= (billete * 50);
+		}
+
+		System.out.println("importe: " + importe);
+		System.out.println("billete: " + billete);
+	}
+}

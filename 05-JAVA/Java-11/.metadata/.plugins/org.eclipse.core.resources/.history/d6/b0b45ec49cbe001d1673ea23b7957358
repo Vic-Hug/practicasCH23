@@ -1,0 +1,14 @@
+package com.vhfc.testers;
+
+import com.vhfc.clases.FigurasGeometricas;
+import com.vhfc.clases.Rectangulo;
+
+public class TestFigurasGeometricas {
+
+	public static void main(String[] args) {
+		FigurasGeometricas rectangulo = new Rectangulo(10,2);
+		System.out.println(rectangulo.areas());
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package ciclos.forwhiledo;
+
+import java.util.Scanner;
+
+public class CicloDo {
+	Scanner dato = new Scanner(System.in);
+public void digitosDo() {
+	int valor=0;
+	do {
+		System.out.println("Introduzca un digito entre (0-9)");
+		 valor = dato.nextInt();
+		
+	} while (valor>=0 && valor<=9);
+	
+
+
+
+}
+}

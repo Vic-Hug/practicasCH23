@@ -1,0 +1,16 @@
+package com.vhfc.testers;
+
+import com.vhfc.clases.AlumnoB;
+
+public class TestPB {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AlumnoB a = new AlumnoB(123,8.5,"Armando",20);
+		System.out.println(a.getNombre());
+		System.out.println(a.getPromedio());
+		System.out.println(a.toString());
+
+	}
+
+}
